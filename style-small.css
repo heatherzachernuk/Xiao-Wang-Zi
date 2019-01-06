@@ -1,0 +1,79 @@
+@media only screen 
+        and (max-device-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    #container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 1fr 1fr 1fr 1fr;
+        height: 95vh;
+    }
+
+    #title{    
+        grid-column: 1/ span 5;
+        grid-row: 1/ span 1;
+        font-weight: bold;
+    }
+
+    #hanzi-text{
+        grid-column: 1/ span 5;
+        grid-row: 5/ span 1;
+        font-size: 3em;
+    }
+    #pinyin-text{
+        grid-column: 1/ span 2;
+        grid-row: 6/ span 1;
+        font-size: 1.3em;
+    }
+    #illustration {
+        grid-column: 1/ span 5;
+        z-index: -1;
+        grid-row: 3;
+    }
+
+    #illustration > img {
+        width: 100%;
+        grid-column: 1/ span 5;
+        grid-row: 3;
+        opacity: 0.4;
+    }
+    #audio {
+        grid-row: 2;
+        grid-column: 1 / span 5;
+    }
+    #english-text{
+        grid-column: 4/ span 2;
+        grid-row: 6/ span 1;
+        font-size: 1.3em;
+    }
+    #prev{
+        grid-column: 1/ span 1;
+        grid-row: 3/ span 1;
+    }
+    #pinyin-word{
+        grid-column: 2/ span 1;
+        grid-row: 3/ span 1;
+        font-size: 2em;
+        /* outline: thin solid red; */
+    }
+    #hanzi-word{
+        grid-column: 3/ span 1;
+        grid-row: 3/ span 1;
+        line-height: 3.5em;
+        /* outline: thin solid red; */
+    }
+    #english-word{
+        grid-column: 4/ span 1;
+        grid-row: 3/ span 1;
+        font-size: 2em;
+        /* outline: thin solid red; */
+    }
+    #next{
+        grid-column: 5/ span 1;
+        grid-row: 3/ span 1;
+    }
+    #strokes{
+        grid-column: 1/ span 5;
+        grid-row: 4/ span 1;
+    }
+}
