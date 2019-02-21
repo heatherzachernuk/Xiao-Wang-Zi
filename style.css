@@ -19,7 +19,7 @@ body {
 
 .link:hover {
     cursor: pointer;
-    text-shadow: 1px 1px red;
+    text-shadow: 1px 1px 3px gray;
 }
 #title{    
     font-size: 3em;
@@ -48,10 +48,10 @@ body {
     cursor: pointer;
 }
 #prev:hover {
-    text-shadow: 1px 1px red;
+ text-shadow: 1px 1px 3px gray;
 }
 #next:hover{
-    text-shadow: 1px 1px red;
+ text-shadow: 1px 1px 3px gray;
 }
 #pinyin-word{
     width: 100%;
