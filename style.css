@@ -17,7 +17,7 @@ body {
     transform: translate(0, 1vh); 
 }
 
-.link:hover {
+.link {
     cursor: pointer;
 }
 #title{    
@@ -44,6 +44,7 @@ body {
 }
 #prev{
     font-size: 3em;
+    cursor: pointer;
 }
 #pinyin-word{
     width: 100%;
@@ -64,6 +65,7 @@ body {
 }
 #next{
     font-size: 3em;
+    cursor: pointer;
 }
 #strokes{
     text-align: center;
