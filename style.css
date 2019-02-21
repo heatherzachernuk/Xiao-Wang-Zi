@@ -17,8 +17,9 @@ body {
     transform: translate(0, 1vh); 
 }
 
-.link {
+.link:hover {
     cursor: pointer;
+    box-shadow: 1px 1px gray;
 }
 #title{    
     font-size: 3em;
@@ -45,6 +46,12 @@ body {
 #prev{
     font-size: 3em;
     cursor: pointer;
+}
+#prev:hover {
+box-shadow: 1px 1px gray;
+}
+#next:hover{
+box-shadow: 1px 1px gray;
 }
 #pinyin-word{
     width: 100%;
